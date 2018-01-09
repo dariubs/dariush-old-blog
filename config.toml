@@ -41,7 +41,7 @@ dateFormat = "2006, Jan 02"
 listDateFormat = "2006, Jan 02"
 hideEntryNavigation = ["page"] # boolean / array of sections
 recentPostsLength = 6
-hideSocialMenu = true
+hideSocialMenu = false
 showReadingTime = true
 noTermCloudShuffle = false
 
@@ -68,7 +68,7 @@ twitter = "dariubs"
 telegram = "dariubs"
 
 [params.social.config]
-platforms = ["github","twitter","telegram"]
+platforms = ["github","twitter"]
 
 [taxonomies]
 author = "authors"
