@@ -15,7 +15,7 @@
     url('../font/iran/web-bold.woff') format("woff"),
     url('../font/iran/web-bold.ttf') format("truetype");
   }
-  
+
 * {
     font-family: iransans;
 }
@@ -27,4 +27,8 @@
 
 body {
     direction: rtl;
+}
+
+pre, code {
+  direction: ltr;
 }
