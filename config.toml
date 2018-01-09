@@ -1,0 +1,95 @@
+baseURL = "http://dariux.ir"
+title = "داریوش"
+# for smart copyright line, leave this blank and check [params.copyright]
+copyright = ""
+
+theme = "minimo"
+
+disqusShortname = ""
+googleAnalytics = ""
+
+Paginate = 10
+preserveTaxonomyNames = true
+
+enableRobotsTXT = true # generate robots.txt
+
+# Syntax Highlighting ( https://gohugo.io/content-management/syntax-highlighting/ )
+pygmentsCodefences = true
+
+# Missing translations will default to this content language
+defaultContentLanguage = "fa"
+
+[params.info]
+description = "وبلاگ داریوش در مورد زندگی"
+title404 = "هیچی پیدا نشد!"
+
+[params.assets]
+favicon = "favicon.ico"
+customCSS = ["css/custom.css"]
+customJS = ["js/custom.js"]
+gopher = "" # used in 404 template ( Generator: https://gopherize.me )
+
+[params.copyright]
+prefix = "نقل مطلب آزاد است"
+holder = "داریوش"
+startYear = "2018"
+suffix = ""
+
+[params.settings]
+# date & time format: https://golang.org/pkg/time/
+dateFormat = "2006, Jan 02"
+listDateFormat = "2006, Jan 02"
+hideEntryNavigation = ["page"] # boolean / array of sections
+recentPostsLength = 6
+hideSocialMenu = true
+showReadingTime = true
+noTermCloudShuffle = false
+
+[params.opengraph.facebook]
+admins = [] # array of Facebook IDs
+appID = ""
+pageID = ""
+
+[params.opengraph.twitter]
+page = "" # Twitter page username
+
+[params.seo]
+# Title Separator: - – — · • * ⋆ | ~ « » < >
+titleSeparator = "•"
+
+[params.social]
+codepen = "dariubs"
+email = "poshtehani [at] gmail [dot] com"
+facebook = "dariushem"
+github = "dariubs"
+instagram = "dariubs"
+linkedin = "dariubs"
+twitter = "dariubs"
+telegram = "dariubs"
+
+[params.social.config]
+platforms = ["github","twitter","telegram"]
+
+[taxonomies]
+author = "authors"
+category = "categories"
+tag = "tags"
+
+[permalinks]
+page = "/:slug/"
+
+# [[menu.main]]
+# name = "خانه"
+# weight = -10
+# identifier = "home"
+# url = "/"
+
+[blackfriday]
+hrefTargetBlank = true
+
+[languages]
+# edit this block for your own language
+[languages.fa]
+lang = "fa"
+languageName = "Persian"
+weight = 1

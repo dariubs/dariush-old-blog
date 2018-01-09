@@ -1,0 +1,30 @@
+@font-face {
+    font-family: iransans;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../font/iran/web-normal.eot') format("embedded-opentype"),
+    url('../font/iran/web-normal.woff') format("woff"),
+    url('../font/iran/web-normal.ttf') format("truetype");
+  }
+
+@font-face {
+    font-family: iransans;
+    font-style: bold;
+    font-weight: bold;
+    src: url('../font/iran/web-bold.eot') format("embedded-opentype"),
+    url('../font/iran/web-bold.woff') format("woff"),
+    url('../font/iran/web-bold.ttf') format("truetype");
+  }
+  
+* {
+    font-family: iransans;
+}
+
+.title, h1, h2, h3, h4, h5, h6 {
+    font-family: iransans;
+    font-weight: bold;
+}
+
+body {
+    direction: rtl;
+}
