@@ -1,5 +1,5 @@
 [build]
-publish = "dariush/public"
+publish = "public"
 command = "hugo --baseURL=https://dariush.in"
 
 [build.environment]
