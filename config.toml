@@ -20,7 +20,7 @@ pygmentsCodefences = true
 defaultContentLanguage = "fa"
 
 [params.info]
-description = "وبلاگ داریوش در مورد زندگی"
+description = "وبلاگ داریوش در مورد برنامه‌نویسی، فوتبال و زندگی"
 title404 = "هیچی پیدا نشد!"
 
 [params.assets]
@@ -30,7 +30,7 @@ customJS = ["js/custom.js"]
 gopher = "" # used in 404 template ( Generator: https://gopherize.me )
 
 [params.copyright]
-prefix = "نقل مطلب آزاد است"
+prefix = "نقل مطلب از اینجا با ذکر منبع آزاد است."
 holder = "داریوش"
 startYear = "2018"
 suffix = ""
