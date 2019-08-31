@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "hugo --baseURL=https://dariush.in"
+command = "hugo --baseURL=https://d.codecast.ir"
 
 [build.environment]
 HUGO_VERSION = "0.29"
